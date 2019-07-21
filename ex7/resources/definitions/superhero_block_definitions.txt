@@ -1,0 +1,10 @@
+# default values for blocks
+default height:40 width:40 stroke:color(black)
+
+# block definitions
+bdef symbol:s hit_points:4 fill-1:image(block_images/5-vamps.png) fill-2:image(block_images/3-girl.png) fill-3:image(block_images/2-manblond.png) fill-4:image(block_images/1-robot.png)
+bdef symbol:p hit_points:3 fill-1:image(block_images/6-hulk.png) fill-2:image(block_images/4-oiseau.png) fill-3:image(block_images/8-hero.jpg)
+bdef symbol:q hit_points:2 fill-1:image(block_images/9-end.png) fill-2:image(block_images/7-heroj.jpg)
+
+# spacers definitions
+sdef symbol:- width:40

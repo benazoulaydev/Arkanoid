@@ -1,0 +1,88 @@
+# superzero
+
+START_LEVEL
+level_name:Hero Zero
+ball_velocities:-60,500 -30,500 15,500 45,500
+background:image(background_images/superman.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/superhero_block_definitions.txt
+blocks_start_x:15
+blocks_start_y:50
+row_height:40
+num_blocks:50
+START_BLOCKS
+--s----------s--
+--sssssssssssss-
+S-----------ss-s
+s---ss-----ss--s
+q----ss---ss----
+Q--------ss----q
+-q-pp---ss-pp-p-
+--q----ss----p--
+---q--ss----p---
+-----ss---------
+---sss--------
+----------------
+----------------
+END_BLOCKS
+END_LEVEL
+
+
+# space travel level
+
+START_LEVEL
+level_name:Space Travel
+ball_velocities:0,400 45,400 -45,400
+background:image(background_images/Space.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/space_block_definitions.txt
+blocks_start_x:50
+blocks_start_y:80
+row_height:25
+num_blocks:50
+START_BLOCKS
+rrrrrrrrrrrrrr
+r------------r
+r--bbbbbbbb--r
+r--b------b--r
+r--b--yy--b--r
+r--b---y--b--r
+r--byyyy--b--r
+r---------b--r
+rrrrrrrbbbb--r  
+END_BLOCKS
+END_LEVEL
+
+
+# snake
+
+START_LEVEL
+level_name:Snake
+ball_velocities:20,500 -20,400
+background:image(background_images/snake_jungle.jpg)
+paddle_speed:650
+paddle_width:160
+block_definitions:definitions/snake_block_definitions.txt
+blocks_start_x:15
+blocks_start_y:50
+row_height:25
+num_blocks:62
+START_BLOCKS
+--g-----ygg-----
+-----ggglgyg----
+--ggg---ggggr--
+-gg---------rrr
+gg----------r---
+g----r----------
+-g-------ggggg--
+--g--g--gg---g--
+--gggggg-----g-y
+------------gg--
+-----------gg--
+--gggggg----g--
+-----ggggggg---
+END_BLOCKS
+END_LEVEL
+

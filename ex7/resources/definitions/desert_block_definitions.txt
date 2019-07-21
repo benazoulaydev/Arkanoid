@@ -1,0 +1,11 @@
+# default values for blocks
+
+# block definitions
+bdef symbol:c height:112 width:150 hit_points:6 fill:image(block_images/camel2.jpg) fill-2:image(block_images/camel.jpg) fill-4:image(block_images/camel.jpg)
+bdef symbol:a height:150 width:200 hit_points:6 fill:image(block_images/clouds.jpg) fill-2:image(block_images/clouds2.jpg) fill-4:image(block_images/clouds2.jpg)
+bdef symbol:m hit_points:8 height:150 width:200 fill:image(block_images/moon.jpg)
+bdef symbol:b hit_points:1 height:25 width:50 fill:image(block_images/pblock.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
+sdef symbol:* width:20
