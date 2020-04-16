@@ -1,5 +1,3 @@
-# 330485269
-# azoulab1
 bin:
 	mkdir bin
 compile: bin
